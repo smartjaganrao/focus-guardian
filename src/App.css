@@ -1,0 +1,120 @@
+:root {
+  --color-bg: #16161a;
+  --color-surface: rgba(255, 255, 255, 0.06);
+  --color-surface-hover: rgba(255, 255, 255, 0.12);
+  --color-border-default: rgba(255, 255, 255, 0.14);
+  --color-border-light: rgba(255, 255, 255, 0.08);
+  --color-text-primary: #e8e8ea;
+  --color-text-secondary: #9aa0a6;
+  --color-accent: #6c8cff;
+  --color-accent-light: #859dff;
+  --color-error: #ff453a;
+}
+
+* { box-sizing: border-box; }
+
+html, body, #root { height: 100%; margin: 0; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  color: var(--color-text-primary);
+  background: transparent;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Rounded frosted shell so the transparent window looks like a card. */
+.app-shell {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: rgba(22, 22, 26, 0.92);
+  backdrop-filter: blur(18px);
+  border: 1px solid var(--color-border-light);
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+/* Header / draggable title strip (frameless window). */
+.hdr {
+  -webkit-app-region: drag;
+  flex: 0 0 auto;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8px 0 12px;
+  border-bottom: 1px solid var(--color-border-light);
+}
+.hdr__brand { display: flex; align-items: center; gap: 7px; }
+.hdr__mark {
+  width: 13px; height: 13px; border-radius: 50%;
+  border: 2.5px solid var(--color-accent);
+  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.001);
+  position: relative;
+}
+.hdr__mark::after {
+  content: ''; position: absolute; inset: 3px;
+  border-radius: 50%; background: var(--color-accent);
+}
+.hdr__title { font-size: 12.5px; font-weight: 600; color: var(--color-text-secondary); letter-spacing: 0.01em; }
+.hdr__controls { display: flex; gap: 2px; }
+.hdr__btn,
+.app-shell button,
+.app-shell input,
+.app-shell textarea { -webkit-app-region: no-drag; }
+.hdr__btn {
+  width: 26px; height: 26px;
+  display: inline-flex; align-items: center; justify-content: center;
+  border: none; background: transparent; color: var(--color-text-secondary);
+  border-radius: 6px; cursor: pointer; font-size: 13px; line-height: 1;
+}
+.hdr__btn:hover { background: var(--color-surface-hover); color: var(--color-text-primary); }
+
+.app-body { flex: 1 1 auto; overflow-y: auto; }
+
+/* ── Collapsed pill (whole window) ──────────────────────────────────────────── */
+.pill {
+  width: 100%; height: 100%;
+  display: flex; align-items: center; gap: 9px;
+  padding: 0 14px;
+  background: rgba(22, 22, 26, 0.96);
+  backdrop-filter: blur(18px);
+  border: 1px solid var(--color-border-light);
+  border-radius: 14px;
+  cursor: pointer;
+  color: var(--color-text-primary);
+  text-align: left;
+  -webkit-app-region: no-drag;
+}
+.pill:hover { background: rgba(30, 30, 36, 0.98); }
+.pill__dot { width: 9px; height: 9px; border-radius: 50%; flex: 0 0 auto; }
+.pill__dot--focused { background: #34c759; }
+.pill__dot--drifting { background: #ff9f0a; }
+.pill__dot--blocked { background: var(--color-error); }
+.pill__dot--break { background: var(--color-accent); }
+.pill__task { flex: 1 1 auto; font-size: 13px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.pill__timer { font-variant-numeric: tabular-nums; font-size: 13px; font-weight: 600; color: var(--color-text-secondary); }
+
+/* ── Toasts ───────────────────────────────────────────────────────────────── */
+.toasts {
+  position: fixed;
+  left: 12px; right: 12px; bottom: 12px;
+  display: flex; flex-direction: column; gap: 8px;
+  z-index: 10000;
+  pointer-events: none;
+}
+.toast {
+  pointer-events: auto;
+  background: rgba(30, 30, 36, 0.98);
+  border: 1px solid var(--color-border-default);
+  border-left-width: 3px;
+  border-radius: 10px;
+  padding: 9px 12px;
+  font-size: 12.5px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.4);
+}
+.toast--warning { border-left-color: #ff9f0a; }
+.toast--error { border-left-color: var(--color-error); }
+.toast--success { border-left-color: #34c759; }
+.toast--info { border-left-color: var(--color-accent); }
+.toast__detail { color: var(--color-text-secondary); font-size: 11.5px; margin-top: 2px; }

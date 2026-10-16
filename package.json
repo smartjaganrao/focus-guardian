@@ -1,0 +1,62 @@
+{
+  "name": "focus-guardian",
+  "version": "0.1.0",
+  "description": "One task at a time. An AI mentor that keeps you focused.",
+  "author": "Jagan Rao",
+  "private": true,
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "electron": "electron .",
+    "electron-dev": "concurrently -k \"npm run dev\" \"wait-on tcp:5173 && electron . --fg-debug\"",
+    "electron-dev-overlay": "concurrently -k \"npm run dev\" \"wait-on tcp:5173 && electron .\"",
+    "icons": "node scripts/generate-tray-icon.mjs",
+    "electron-build": "npm run build && electron-builder"
+  },
+  "dependencies": {
+    "groq-sdk": "^1.1.2",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "zustand": "^5.0.13"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "concurrently": "^9.2.1",
+    "electron": "^41.2.2",
+    "electron-builder": "^26.8.1",
+    "typescript": "~5.7.2",
+    "vite": "^8.0.9",
+    "wait-on": "^9.0.5"
+  },
+  "build": {
+    "appId": "com.javihai.focusguardian",
+    "productName": "Focus Guardian",
+    "asar": true,
+    "files": [
+      "dist/**/*",
+      "main.js",
+      "preload.cjs",
+      "electron/**/*",
+      "public/tray-iconTemplate.png",
+      "public/tray-iconTemplate@2x.png",
+      "package.json"
+    ],
+    "directories": {
+      "buildResources": "public",
+      "output": "release"
+    },
+    "mac": {
+      "target": [{ "target": "dmg", "arch": ["arm64"] }],
+      "category": "public.app-category.productivity",
+      "icon": "build-assets/icon.icns",
+      "identity": null,
+      "entitlements": "build-assets/entitlements.mac.plist",
+      "entitlementsInherit": "build-assets/entitlements.mac.plist"
+    }
+  }
+}

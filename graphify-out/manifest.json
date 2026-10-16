@@ -1,0 +1,152 @@
+{
+  "electron/ipc/ai.ipc.js": {
+    "mtime": 1781332412.667354,
+    "ast_hash": "10444e46fe2c0d16cb9ca978be7bb32a",
+    "semantic_hash": "10444e46fe2c0d16cb9ca978be7bb32a"
+  },
+  "electron/ipc/focus.ipc.js": {
+    "mtime": 1781337659.2594893,
+    "ast_hash": "9eb3b8f6f97916281e4f9bfb9cfb7aef",
+    "semantic_hash": "9eb3b8f6f97916281e4f9bfb9cfb7aef"
+  },
+  "electron/ipc/perm.ipc.js": {
+    "mtime": 1781346076.3938868,
+    "ast_hash": "871231aaf81d0829e29a6ca8acc9b73b",
+    "semantic_hash": "871231aaf81d0829e29a6ca8acc9b73b"
+  },
+  "main.js": {
+    "mtime": 1781346084.7297993,
+    "ast_hash": "05e82ea98e5cb3dedee81a793f2af3f2",
+    "semantic_hash": "05e82ea98e5cb3dedee81a793f2af3f2"
+  },
+  "package.json": {
+    "mtime": 1781335422.810524,
+    "ast_hash": "8f06e6f6dc89d76b483eac79ec4bc125",
+    "semantic_hash": "8f06e6f6dc89d76b483eac79ec4bc125"
+  },
+  "release/mac-arm64/Focus Guardian.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries/vk_swiftshader_icd.json": {
+    "mtime": 1781338411.887602,
+    "ast_hash": "9777f008ed3e4df7a9a9abe98a6d63b5",
+    "semantic_hash": "9777f008ed3e4df7a9a9abe98a6d63b5"
+  },
+  "scripts/generate-app-icon.mjs": {
+    "mtime": 1781335312.4329872,
+    "ast_hash": "3505ae97feb9c7b8175679f57a77b281",
+    "semantic_hash": "3505ae97feb9c7b8175679f57a77b281"
+  },
+  "scripts/generate-tray-icon.mjs": {
+    "mtime": 1781333328.4236147,
+    "ast_hash": "c5fd63a6f24256c8694d0bf3b4f155bd",
+    "semantic_hash": "c5fd63a6f24256c8694d0bf3b4f155bd"
+  },
+  "scripts/make-icns.sh": {
+    "mtime": 1781335400.7054172,
+    "ast_hash": "3f0ad9444634908bb28b766a755e70f7",
+    "semantic_hash": "3f0ad9444634908bb28b766a755e70f7"
+  },
+  "src/App.tsx": {
+    "mtime": 1781336464.3351626,
+    "ast_hash": "e7097de5e1af12fa8fabba59c7816fad",
+    "semantic_hash": "e7097de5e1af12fa8fabba59c7816fad"
+  },
+  "src/electron.d.ts": {
+    "mtime": 1781337673.434355,
+    "ast_hash": "b4322da31cd9aed0de548356f436afe2",
+    "semantic_hash": "b4322da31cd9aed0de548356f436afe2"
+  },
+  "src/features/focus/FocusPanel.tsx": {
+    "mtime": 1781338373.351505,
+    "ast_hash": "d0ceb2ffdeb236d2c09e0916f16c2337",
+    "semantic_hash": "d0ceb2ffdeb236d2c09e0916f16c2337"
+  },
+  "src/features/focus/NudgeOverlay.tsx": {
+    "mtime": 1781336933.62194,
+    "ast_hash": "f1c318d692996cf16f8e3736547f48a3",
+    "semantic_hash": "f1c318d692996cf16f8e3736547f48a3"
+  },
+  "src/features/focus/PillView.tsx": {
+    "mtime": 1781336373.7323527,
+    "ast_hash": "89eaeda96b27441870b8123a88f05d8c",
+    "semantic_hash": "89eaeda96b27441870b8123a88f05d8c"
+  },
+  "src/features/focus/useFocusGuardian.ts": {
+    "mtime": 1781338343.7099814,
+    "ast_hash": "7fbadc2a35e847b2ddfd2a9405a81f74",
+    "semantic_hash": "7fbadc2a35e847b2ddfd2a9405a81f74"
+  },
+  "src/features/settings/SettingsPanel.tsx": {
+    "mtime": 1781332548.1321712,
+    "ast_hash": "e9d8a43db01a703ab20377d361e531f2",
+    "semantic_hash": "e9d8a43db01a703ab20377d361e531f2"
+  },
+  "src/lib/format.ts": {
+    "mtime": 1781336368.6240103,
+    "ast_hash": "f196c3efd5da0a666f31f2007adf2eee",
+    "semantic_hash": "f196c3efd5da0a666f31f2007adf2eee"
+  },
+  "src/main.tsx": {
+    "mtime": 1781332434.9543512,
+    "ast_hash": "85bceb1902d1a03c623465ae124423c9",
+    "semantic_hash": "85bceb1902d1a03c623465ae124423c9"
+  },
+  "src/services/ai/focus-prompts.ts": {
+    "mtime": 1781332484.9310834,
+    "ast_hash": "6a4aaab082baabf4d8733181065e4ad5",
+    "semantic_hash": "6a4aaab082baabf4d8733181065e4ad5"
+  },
+  "src/store/focus.store.ts": {
+    "mtime": 1781338394.7022753,
+    "ast_hash": "d25b23869e7f04f5c441c8fb5e7eddc2",
+    "semantic_hash": "d25b23869e7f04f5c441c8fb5e7eddc2"
+  },
+  "src/store/toasts.store.ts": {
+    "mtime": 1781332311.5891805,
+    "ast_hash": "4eb5ff84a637cbb46f30985a0ac0af54",
+    "semantic_hash": "4eb5ff84a637cbb46f30985a0ac0af54"
+  },
+  "src/ui/Header.tsx": {
+    "mtime": 1781336371.244376,
+    "ast_hash": "2c58e62e946f1837adb58f84c40b894d",
+    "semantic_hash": "2c58e62e946f1837adb58f84c40b894d"
+  },
+  "src/ui/Toasts.tsx": {
+    "mtime": 1781332567.5272527,
+    "ast_hash": "b58b14c4f93624990c5ab361ef294c6e",
+    "semantic_hash": "b58b14c4f93624990c5ab361ef294c6e"
+  },
+  "tsconfig.json": {
+    "mtime": 1781332349.4632502,
+    "ast_hash": "489be2e78d863075841c6c82c2104ae3",
+    "semantic_hash": "489be2e78d863075841c6c82c2104ae3"
+  },
+  "vite.config.ts": {
+    "mtime": 1781332345.2548785,
+    "ast_hash": "b34eff4dca94a0c86efda881043c7576",
+    "semantic_hash": "b34eff4dca94a0c86efda881043c7576"
+  },
+  "index.html": {
+    "mtime": 1781332352.2897499,
+    "ast_hash": "68fd36d0e992ceef87c08327924026b1",
+    "semantic_hash": ""
+  },
+  "release/builder-debug.yml": {
+    "mtime": 1781338420.9815748,
+    "ast_hash": "b00fbe260228670f8d71241b7573cd6e",
+    "semantic_hash": ""
+  },
+  "build-assets/icon-1024.png": {
+    "mtime": 1781335406.3522668,
+    "ast_hash": "699886de68252a931a855d50b1571fc2",
+    "semantic_hash": ""
+  },
+  "public/tray-iconTemplate.png": {
+    "mtime": 1781333333.9151769,
+    "ast_hash": "3c5b3bb6795765e17dcccb33f6d03d5f",
+    "semantic_hash": ""
+  },
+  "public/tray-iconTemplate@2x.png": {
+    "mtime": 1781333333.9156253,
+    "ast_hash": "9848adc9e02657f89a93c007d3fbeeb9",
+    "semantic_hash": ""
+  }
+}

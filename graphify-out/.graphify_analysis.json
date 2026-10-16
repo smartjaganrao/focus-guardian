@@ -1,0 +1,382 @@
+{
+  "communities": {
+    "0": [
+      "src_app_app",
+      "src_features_focus_focuspanel",
+      "src_features_focus_focuspanel_focuspanel",
+      "src_features_focus_focuspanel_focusscore",
+      "src_features_focus_focuspanel_time_boxes",
+      "src_features_focus_nudgeoverlay",
+      "src_features_focus_nudgeoverlay_nudgeoverlay",
+      "src_features_focus_pillview",
+      "src_features_focus_pillview_pillview",
+      "src_features_focus_usefocusguardian",
+      "src_features_focus_usefocusguardian_allowdriftingapp",
+      "src_features_focus_usefocusguardian_elapsedtolevel",
+      "src_features_focus_usefocusguardian_enddrift",
+      "src_features_focus_usefocusguardian_overlayforlevel",
+      "src_features_focus_usefocusguardian_returntotask",
+      "src_features_focus_usefocusguardian_schedulereturn",
+      "src_features_focus_usefocusguardian_takebreak",
+      "src_features_focus_usefocusguardian_usefocusguardian",
+      "src_lib_format",
+      "src_lib_format_fmtduration",
+      "src_store_focus_store",
+      "src_store_focus_store_distraction",
+      "src_store_focus_store_escalationlevel",
+      "src_store_focus_store_focusstate",
+      "src_store_focus_store_focusstatus",
+      "src_store_focus_store_initial",
+      "src_store_focus_store_parkedthought",
+      "src_store_focus_store_sessionrecord",
+      "src_store_focus_store_usefocusstore",
+      "src_ui_header",
+      "src_ui_header_header",
+      "src_ui_header_props"
+    ],
+    "1": [
+      "ref_dom",
+      "ref_dom_iterable",
+      "ref_es2022",
+      "ref_src",
+      "tsconfig",
+      "tsconfig_compileroptions",
+      "tsconfig_compileroptions_allowimportingtsextensions",
+      "tsconfig_compileroptions_isolatedmodules",
+      "tsconfig_compileroptions_jsx",
+      "tsconfig_compileroptions_lib",
+      "tsconfig_compileroptions_module",
+      "tsconfig_compileroptions_moduledetection",
+      "tsconfig_compileroptions_moduleresolution",
+      "tsconfig_compileroptions_noemit",
+      "tsconfig_compileroptions_nofallthroughcasesinswitch",
+      "tsconfig_compileroptions_nounusedlocals",
+      "tsconfig_compileroptions_nounusedparameters",
+      "tsconfig_compileroptions_resolvejsonmodule",
+      "tsconfig_compileroptions_skiplibcheck",
+      "tsconfig_compileroptions_strict",
+      "tsconfig_compileroptions_target",
+      "tsconfig_compileroptions_usedefineforclassfields",
+      "tsconfig_include"
+    ],
+    "2": [
+      "electron",
+      "electron_ipc_ai_ipc",
+      "electron_ipc_ai_ipc_configpath",
+      "electron_ipc_ai_ipc_readconfig",
+      "electron_ipc_ai_ipc_registeraihandlers",
+      "electron_ipc_ai_ipc_writeconfig",
+      "electron_ipc_focus_ipc",
+      "electron_ipc_focus_ipc_getactivewindowmac",
+      "electron_ipc_focus_ipc_registerfocushandlers",
+      "electron_ipc_perm_ipc",
+      "electron_ipc_perm_ipc_checkautomation",
+      "electron_ipc_perm_ipc_hasaccessibility",
+      "electron_ipc_perm_ipc_registerpermhandlers",
+      "main",
+      "main_anchortopright",
+      "main_createtray",
+      "main_createwindow",
+      "main_dirname",
+      "main_mime",
+      "main_normal",
+      "main_pill",
+      "main_startlocalserver"
+    ],
+    "3": [
+      "package_build",
+      "package_build_appid",
+      "package_build_asar",
+      "package_build_directories",
+      "package_build_files",
+      "package_build_mac",
+      "package_build_productname",
+      "package_directories_buildresources",
+      "package_directories_output",
+      "package_mac_category",
+      "package_mac_entitlements",
+      "package_mac_entitlementsinherit",
+      "package_mac_icon",
+      "package_mac_identity",
+      "package_mac_target",
+      "ref_dist",
+      "ref_main_js",
+      "ref_package_json",
+      "ref_preload_cjs",
+      "ref_public_tray_icontemplate_2x_png",
+      "ref_public_tray_icontemplate_png"
+    ],
+    "4": [
+      "concurrently",
+      "electron_builder",
+      "package_devdependencies",
+      "package_devdependencies_concurrently",
+      "package_devdependencies_electron",
+      "package_devdependencies_electron_builder",
+      "package_devdependencies_types_react",
+      "package_devdependencies_types_react_dom",
+      "package_devdependencies_typescript",
+      "package_devdependencies_vite",
+      "package_devdependencies_vitejs_plugin_react",
+      "package_devdependencies_wait_on",
+      "types_react",
+      "types_react_dom",
+      "typescript",
+      "vite",
+      "vitejs_plugin_react",
+      "wait_on"
+    ],
+    "5": [
+      "groq_sdk",
+      "package",
+      "package_author",
+      "package_dependencies",
+      "package_dependencies_groq_sdk",
+      "package_dependencies_react",
+      "package_dependencies_react_dom",
+      "package_dependencies_zustand",
+      "package_description",
+      "package_main",
+      "package_name",
+      "package_private",
+      "package_type",
+      "package_version",
+      "react",
+      "react_dom",
+      "zustand"
+    ],
+    "6": [
+      "src_app",
+      "src_features_settings_settingspanel",
+      "src_features_settings_settingspanel_props",
+      "src_features_settings_settingspanel_settingspanel",
+      "src_main",
+      "src_store_toasts_store",
+      "src_store_toasts_store_nextid",
+      "src_store_toasts_store_toast",
+      "src_store_toasts_store_toastkind",
+      "src_store_toasts_store_toastsstate",
+      "src_store_toasts_store_usetoastsstore",
+      "src_ui_toasts",
+      "src_ui_toasts_toasts"
+    ],
+    "7": [
+      "scripts_generate_app_icon",
+      "scripts_generate_app_icon_chunk",
+      "scripts_generate_app_icon_clamp01",
+      "scripts_generate_app_icon_cov",
+      "scripts_generate_app_icon_crc32",
+      "scripts_generate_app_icon_crc_table",
+      "scripts_generate_app_icon_dirname",
+      "scripts_generate_app_icon_lerp",
+      "scripts_generate_app_icon_outpath",
+      "scripts_generate_app_icon_render",
+      "scripts_generate_app_icon_ringband"
+    ],
+    "8": [
+      "package_scripts",
+      "package_scripts_build",
+      "package_scripts_dev",
+      "package_scripts_electron",
+      "package_scripts_electron_build",
+      "package_scripts_electron_dev",
+      "package_scripts_electron_dev_overlay",
+      "package_scripts_icons",
+      "package_scripts_preview"
+    ],
+    "9": [
+      "scripts_generate_tray_icon",
+      "scripts_generate_tray_icon_chunk",
+      "scripts_generate_tray_icon_crc32",
+      "scripts_generate_tray_icon_crc_table",
+      "scripts_generate_tray_icon_dirname",
+      "scripts_generate_tray_icon_edge",
+      "scripts_generate_tray_icon_outdir",
+      "scripts_generate_tray_icon_rendertarget"
+    ],
+    "10": [
+      "src_services_ai_focus_prompts",
+      "src_services_ai_focus_prompts_activitykey",
+      "src_services_ai_focus_prompts_callgroq",
+      "src_services_ai_focus_prompts_classifyactivity",
+      "src_services_ai_focus_prompts_fallback_nudges",
+      "src_services_ai_focus_prompts_generatenudge",
+      "src_services_ai_focus_prompts_verdict",
+      "src_services_ai_focus_prompts_verdictcache"
+    ],
+    "11": [
+      "src_electron_d",
+      "src_electron_d_electronapi",
+      "src_electron_d_window"
+    ],
+    "12": [
+      "scripts_make_icns",
+      "scripts_make_icns_sh__entry"
+    ],
+    "13": [
+      "vite_config"
+    ]
+  },
+  "cohesion": {
+    "0": 0.1350806451612903,
+    "1": 0.08695652173913043,
+    "2": 0.1645021645021645,
+    "3": 0.09523809523809523,
+    "4": 0.1111111111111111,
+    "5": 0.11764705882352941,
+    "6": 0.23076923076923078,
+    "7": 0.32727272727272727,
+    "8": 0.2222222222222222,
+    "9": 0.35714285714285715,
+    "10": 0.35714285714285715,
+    "11": 0.6666666666666666,
+    "12": 1.0,
+    "13": 1.0
+  },
+  "gods": [
+    {
+      "id": "tsconfig_compileroptions",
+      "label": "compilerOptions",
+      "degree": 17
+    },
+    {
+      "id": "src_store_focus_store_usefocusstore",
+      "label": "useFocusStore",
+      "degree": 12
+    },
+    {
+      "id": "package_scripts",
+      "label": "scripts",
+      "degree": 9
+    },
+    {
+      "id": "src_features_focus_usefocusguardian_usefocusguardian",
+      "label": "useFocusGuardian()",
+      "degree": 9
+    },
+    {
+      "id": "package_build_files",
+      "label": "files",
+      "degree": 8
+    },
+    {
+      "id": "package_build",
+      "label": "build",
+      "degree": 7
+    },
+    {
+      "id": "package_build_mac",
+      "label": "mac",
+      "degree": 7
+    },
+    {
+      "id": "src_lib_format_fmtduration",
+      "label": "fmtDuration()",
+      "degree": 7
+    },
+    {
+      "id": "electron",
+      "label": "electron",
+      "degree": 6
+    },
+    {
+      "id": "scripts_generate_app_icon_render",
+      "label": "render()",
+      "degree": 6
+    }
+  ],
+  "surprises": [
+    {
+      "source": "createWindow()",
+      "target": "registerAiHandlers()",
+      "source_files": [
+        "main.js",
+        "electron/ipc/ai.ipc.js"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories"
+    },
+    {
+      "source": "createWindow()",
+      "target": "registerFocusHandlers()",
+      "source_files": [
+        "main.js",
+        "electron/ipc/focus.ipc.js"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories"
+    },
+    {
+      "source": "useFocusGuardian()",
+      "target": "classifyActivity()",
+      "source_files": [
+        "src/features/focus/useFocusGuardian.ts",
+        "src/services/ai/focus-prompts.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "useFocusGuardian()",
+      "target": "generateNudge()",
+      "source_files": [
+        "src/features/focus/useFocusGuardian.ts",
+        "src/services/ai/focus-prompts.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "Header()",
+      "target": "useFocusStore",
+      "source_files": [
+        "src/ui/Header.tsx",
+        "src/store/focus.store.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "peripheral node `Header()` unexpectedly reaches hub `useFocusStore`"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `devDependencies` connect `Community 4` to `Community 5`?",
+      "why": "High betweenness centrality (0.089) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `build` connect `Community 3` to `Community 5`?",
+      "why": "High betweenness centrality (0.088) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `electron` connect `Community 2` to `Community 3`, `Community 4`?",
+      "why": "High betweenness centrality (0.083) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `__dirname`, `MIME`, `NORMAL` to the rest of the system?",
+      "why": "88 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 0` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.1350806451612903 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 1` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.08695652173913043 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 3` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.09523809523809523 - nodes in this community are weakly interconnected."
+    }
+  ]
+}
